@@ -1,0 +1,34 @@
+<form action="../../form-result.php" target="_blank" style="width: 600px; background-color: aqua;">
+
+    <fieldset style="text-align:justify;">
+        <legend>Información personal</legend>
+        <p><label>Nombre de pila: <input type="text" name="nombre" size="15" placeholder="Escriba su nombre"></label><label>Apellido: <input type="text" name="apellido" size="20" placeholder="Escriba su apellido"></label></p>
+        <p><p>Usuario: <input type="text" name="usuario" maxlength="6"placeholder="Maximo 6 caracteres"></p></p>
+        <p>Correo: <input type="email" name="correo" size="30"placeholder="@ Escriba su e-mail"></p>
+        <p><label>Habla a: <input type="text" name="direccion" placeholder="1234 Main St"></label></p>
+        <p><label>Dirección 2: <input type="text" name="direccion" placeholder="Escriba su direccion"></label></p>
+      </fieldset>
+    <p>
+        Pais:
+        <select name="pais">
+          <option>Escoger</option>
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+        </select>
+        Estado:
+        <select name="estado">
+          <option>Escoger</option>
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+        </select>
+        Codigo Postal
+        <input type="text" name="texto" disabled size="6">
+      </p>
+    <p>
+      <input type="checkbox" name="envio"> La direccion de envio es la misma que mi direccion de facturación<br>
+      <input type="checkbox" name="guardar"> Guarde esta infromación para la proxima vez<br>
+    </p>
+    <p><input type="submit" value="Enviar información"></p>
+  </form>
